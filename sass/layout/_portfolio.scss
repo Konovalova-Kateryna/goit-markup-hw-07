@@ -23,8 +23,8 @@
 .filter {
   .button {
     transition-property: background, color, box-shadow;
-    transition-duration: var(--transition-time);
-    transition-timing-function: var(--transition-function);
+    transition-duration: $transition-time;
+    transition-timing-function: $transition-function;
   }
   & + & {
     margin-left: 8px;
@@ -56,11 +56,11 @@
 .card__link {
   text-decoration: none;
   display: block;
-  color: var(--primary-text-color);
+  color: $primary-text-color;
   overflow: hidden;
   transition-property: box-shadow;
-  transition-duration: var(--transition-time);
-  transition-timing-function: var(--transition-function);
+  transition-duration: $transition-time;
+  transition-timing-function: $transition-function;
 
   &:hover,
   &:focus,
@@ -79,12 +79,12 @@
   height: 100%;
 
   background-color: rgba(33, 150, 243, 0.9);
-  color: var(--accent-white-color);
+  color: $accent-white-color;
   padding: 63px 24px;
   transform: translatey(100%);
   transition-property: transform;
-  transition-duration: var(--transition-time);
-  transition-timing-function: var(--transition-function);
+  transition-duration: $transition-time;
+  transition-timing-function: $transition-function;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.56;

@@ -3,7 +3,7 @@
   padding-bottom: 94px;
 }
 .hero {
-  background-color: var(--footer-bg-color);
+  background-color: $footer-bg-color;
   height: 600px;
   max-width: 1600px;
   margin-left: auto;
@@ -22,7 +22,7 @@
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  color: var(--accent-white-color);
+  color: $accent-white-color;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   margin-bottom: 30px;
@@ -32,8 +32,8 @@
   height: 50px;
 
   transition-property: background;
-  transition-duration: var(--transition-time);
-  transition-timing-function: var(--transition-function);
+  transition-duration: $transition-time;
+  transition-timing-function: $transition-function;
 }
 .hero .button:hover,
 .hero .button:focus {

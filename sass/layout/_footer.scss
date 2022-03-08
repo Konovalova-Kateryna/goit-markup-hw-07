@@ -1,5 +1,5 @@
 .footer {
-  background-color: var(--footer-bg-color);
+  background-color: $footer-bg-color;
   padding-top: 60px;
   padding-bottom: 60px;
   .logo {
@@ -18,35 +18,35 @@
   margin-bottom: 10px;
 }
 .studio__foot {
-  color: var(--accent-white-color);
+  color: $accent-white-color;
 }
 .foot__address {
   text-decoration: none;
-  color: var(--footer-text-color);
+  color: $footer-text-color;
 
   transition-property: color;
-  transition-duration: var(--transition-time);
-  transition-timing-function: var(--transition-function);
+  transition-duration: $transition-time;
+  transition-timing-function: $transition-function;
 
   &:hover,
   &:focus,
   &:active {
-    color: var(--accent-color);
+    color: $accent-color;
   }
 }
 
 .address-post {
   text-decoration: none;
-  color: var(--accent-white-color);
+  color: $accent-white-color;
 
   transition-property: color;
-  transition-duration: var(--transition-time);
-  transition-timing-function: var(--transition-function);
+  transition-duration: $transition-time;
+  transition-timing-function: $transition-function;
 
   &:hover,
   &:focus,
   &:active {
-    color: var(--accent-color);
+    color: $accent-color;
   }
 }
 
@@ -60,7 +60,7 @@
 
 .footer-links-text {
   display: block;
-  color: var(--accent-white-color);
+  color: $accent-white-color;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -75,7 +75,7 @@
   height: 44px;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
-  fill: var(--accent-white-color);
+  fill: $accent-white-color;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -87,7 +87,7 @@
   &:hover,
   &:focus,
   &:active {
-    background-color: var(--accent-color);
+    background-color: $accent-color;
   }
 }
 
@@ -107,7 +107,7 @@
   width: 358px;
   height: 50px;
   margin-right: 12px;
-  background-color: var(--footer-bg-color);
+  background-color: $footer-bg-color;
   border: 1px solid rgba(255, 255, 255, 0.3);
   box-sizing: border-box;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -118,15 +118,15 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 1.25;
-  color: var(--accent-white-color);
+  color: $accent-white-color;
 
   transition-property: border;
-  transition-duration: var(--transition-time);
-  transition-timing-function: var(--transition-function);
+  transition-duration: $transition-time;
+  transition-timing-function: $transition-function;
 
   &:hover,
   &:focus {
-    border: 1px solid var(--accent-color);
+    border: 1px solid $accent-color;
   }
 }
 
@@ -135,17 +135,17 @@
     position: relative;
     width: 200px;
     height: 50px;
-    fill: var(--accent-white-color);
+    fill: $accent-white-color;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 10px 28px;
-    background: var(--accent-color);
+    background: $accent-color;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
     transition-property: background;
-    transition-duration: var(--transition-time);
-    transition-timing-function: var(--transition-function);
+    transition-duration: $transition-time;
+    transition-timing-function: $transition-function;
 
     &:hover,
     &:focus {
@@ -157,7 +157,7 @@
 }
 
 .mail__text {
-  color: var(--accent-white-color);
+  color: $accent-white-color;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
